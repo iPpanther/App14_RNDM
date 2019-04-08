@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B526CE3D076ACE440CC16C40 /* Pods_RNDM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15D2A4DF0F35BAA2EF92A40 /* Pods_RNDM.framework */; };
 		D21FA889225B138D00F0B14A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21FA888225B138D00F0B14A /* AppDelegate.swift */; };
-		D21FA88B225B138D00F0B14A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21FA88A225B138D00F0B14A /* ViewController.swift */; };
+		D21FA88B225B138D00F0B14A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21FA88A225B138D00F0B14A /* MainVC.swift */; };
 		D21FA88E225B138D00F0B14A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D21FA88C225B138D00F0B14A /* Main.storyboard */; };
 		D21FA891225B138D00F0B14A /* RNDM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D21FA88F225B138D00F0B14A /* RNDM.xcdatamodeld */; };
 		D21FA893225B138E00F0B14A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D21FA892225B138E00F0B14A /* Assets.xcassets */; };
 		D21FA896225B138E00F0B14A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D21FA894225B138E00F0B14A /* LaunchScreen.storyboard */; };
+		D21FA89E225B158E00F0B14A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D21FA89D225B158E00F0B14A /* GoogleService-Info.plist */; };
+		D21FA8A3225B1E8E00F0B14A /* AddThoughtVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21FA8A2225B1E8E00F0B14A /* AddThoughtVC.swift */; };
+		D21FA8A7225B261E00F0B14A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21FA8A5225B261E00F0B14A /* Constants.swift */; };
+		D21FA8A8225B261E00F0B14A /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21FA8A6225B261E00F0B14A /* KeyboardBoundView.swift */; };
+		D21FA8AB225B2F9100F0B14A /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21FA8A9225B2F9100F0B14A /* Comment.swift */; };
+		D21FA8AC225B2F9100F0B14A /* Thought.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21FA8AA225B2F9100F0B14A /* Thought.swift */; };
+		D21FA8AF225B301B00F0B14A /* ThoughtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21FA8AD225B301B00F0B14A /* ThoughtCell.swift */; };
+		D21FA8B0225B301B00F0B14A /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21FA8AE225B301B00F0B14A /* CommentCell.swift */; };
+		D21FA8B2225B47AD00F0B14A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21FA8B1225B47AD00F0B14A /* LoginVC.swift */; };
+		D21FA8B4225B495900F0B14A /* CreateUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21FA8B3225B495900F0B14A /* CreateUserVC.swift */; };
+		D21FA8B6225B518C00F0B14A /* CommentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21FA8B5225B518C00F0B14A /* CommentsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29CD6C9AA04313792FE29580 /* Pods-RNDM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNDM.debug.xcconfig"; path = "Target Support Files/Pods-RNDM/Pods-RNDM.debug.xcconfig"; sourceTree = "<group>"; };
+		C15D2A4DF0F35BAA2EF92A40 /* Pods_RNDM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNDM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21FA885225B138D00F0B14A /* RNDM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNDM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21FA888225B138D00F0B14A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D21FA88A225B138D00F0B14A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D21FA88A225B138D00F0B14A /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		D21FA88D225B138D00F0B14A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D21FA890225B138D00F0B14A /* RNDM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RNDM.xcdatamodel; sourceTree = "<group>"; };
 		D21FA892225B138E00F0B14A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D21FA895225B138E00F0B14A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D21FA897225B138E00F0B14A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D21FA89D225B158E00F0B14A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D21FA8A2225B1E8E00F0B14A /* AddThoughtVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddThoughtVC.swift; sourceTree = "<group>"; };
+		D21FA8A5225B261E00F0B14A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D21FA8A6225B261E00F0B14A /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
+		D21FA8A9225B2F9100F0B14A /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		D21FA8AA225B2F9100F0B14A /* Thought.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thought.swift; sourceTree = "<group>"; };
+		D21FA8AD225B301B00F0B14A /* ThoughtCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThoughtCell.swift; sourceTree = "<group>"; };
+		D21FA8AE225B301B00F0B14A /* CommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		D21FA8B1225B47AD00F0B14A /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		D21FA8B3225B495900F0B14A /* CreateUserVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUserVC.swift; sourceTree = "<group>"; };
+		D21FA8B5225B518C00F0B14A /* CommentsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsVC.swift; sourceTree = "<group>"; };
+		D29D706216699D0BCA3D21D3 /* Pods-RNDM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNDM.release.xcconfig"; path = "Target Support Files/Pods-RNDM/Pods-RNDM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B526CE3D076ACE440CC16C40 /* Pods_RNDM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1153028C72272E3AC7362E89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C15D2A4DF0F35BAA2EF92A40 /* Pods_RNDM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8631B97BB9845F1FE979DBBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29CD6C9AA04313792FE29580 /* Pods-RNDM.debug.xcconfig */,
+				D29D706216699D0BCA3D21D3 /* Pods-RNDM.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D21FA87C225B138D00F0B14A = {
 			isa = PBXGroup;
 			children = (
 				D21FA887225B138D00F0B14A /* RNDM */,
 				D21FA886225B138D00F0B14A /* Products */,
+				8631B97BB9845F1FE979DBBD /* Pods */,
+				1153028C72272E3AC7362E89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +102,58 @@
 		D21FA887225B138D00F0B14A /* RNDM */ = {
 			isa = PBXGroup;
 			children = (
+				D21FA8A4225B261E00F0B14A /* Utilities */,
+				D21FA8A1225B1E7900F0B14A /* View */,
+				D21FA8A0225B1E7400F0B14A /* Model */,
+				D21FA89F225B1E6200F0B14A /* Controller */,
 				D21FA888225B138D00F0B14A /* AppDelegate.swift */,
-				D21FA88A225B138D00F0B14A /* ViewController.swift */,
 				D21FA88C225B138D00F0B14A /* Main.storyboard */,
 				D21FA892225B138E00F0B14A /* Assets.xcassets */,
 				D21FA894225B138E00F0B14A /* LaunchScreen.storyboard */,
 				D21FA897225B138E00F0B14A /* Info.plist */,
+				D21FA89D225B158E00F0B14A /* GoogleService-Info.plist */,
 				D21FA88F225B138D00F0B14A /* RNDM.xcdatamodeld */,
 			);
 			path = RNDM;
+			sourceTree = "<group>";
+		};
+		D21FA89F225B1E6200F0B14A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D21FA88A225B138D00F0B14A /* MainVC.swift */,
+				D21FA8A2225B1E8E00F0B14A /* AddThoughtVC.swift */,
+				D21FA8B1225B47AD00F0B14A /* LoginVC.swift */,
+				D21FA8B3225B495900F0B14A /* CreateUserVC.swift */,
+				D21FA8B5225B518C00F0B14A /* CommentsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D21FA8A0225B1E7400F0B14A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D21FA8A9225B2F9100F0B14A /* Comment.swift */,
+				D21FA8AA225B2F9100F0B14A /* Thought.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D21FA8A1225B1E7900F0B14A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D21FA8AE225B301B00F0B14A /* CommentCell.swift */,
+				D21FA8AD225B301B00F0B14A /* ThoughtCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D21FA8A4225B261E00F0B14A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D21FA8A5225B261E00F0B14A /* Constants.swift */,
+				D21FA8A6225B261E00F0B14A /* KeyboardBoundView.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D21FA89A225B138E00F0B14A /* Build configuration list for PBXNativeTarget "RNDM" */;
 			buildPhases = (
+				23F2E24808520AFE51188308 /* [CP] Check Pods Manifest.lock */,
 				D21FA881225B138D00F0B14A /* Sources */,
 				D21FA882225B138D00F0B14A /* Frameworks */,
 				D21FA883225B138D00F0B14A /* Resources */,
+				4E4527628840CF9C696976CF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D21FA896225B138E00F0B14A /* LaunchScreen.storyboard in Resources */,
+				D21FA89E225B158E00F0B14A /* GoogleService-Info.plist in Resources */,
 				D21FA893225B138E00F0B14A /* Assets.xcassets in Resources */,
 				D21FA88E225B138D00F0B14A /* Main.storyboard in Resources */,
 			);
@@ -133,13 +225,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23F2E24808520AFE51188308 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNDM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E4527628840CF9C696976CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNDM/Pods-RNDM-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNDM/Pods-RNDM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D21FA881225B138D00F0B14A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D21FA88B225B138D00F0B14A /* ViewController.swift in Sources */,
+				D21FA8B6225B518C00F0B14A /* CommentsVC.swift in Sources */,
+				D21FA8B2225B47AD00F0B14A /* LoginVC.swift in Sources */,
+				D21FA8A7225B261E00F0B14A /* Constants.swift in Sources */,
+				D21FA88B225B138D00F0B14A /* MainVC.swift in Sources */,
+				D21FA8A8225B261E00F0B14A /* KeyboardBoundView.swift in Sources */,
+				D21FA8AC225B2F9100F0B14A /* Thought.swift in Sources */,
+				D21FA8AB225B2F9100F0B14A /* Comment.swift in Sources */,
+				D21FA8B0225B301B00F0B14A /* CommentCell.swift in Sources */,
 				D21FA891225B138D00F0B14A /* RNDM.xcdatamodeld in Sources */,
+				D21FA8AF225B301B00F0B14A /* ThoughtCell.swift in Sources */,
+				D21FA8B4225B495900F0B14A /* CreateUserVC.swift in Sources */,
+				D21FA8A3225B1E8E00F0B14A /* AddThoughtVC.swift in Sources */,
 				D21FA889225B138D00F0B14A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +447,7 @@
 		};
 		D21FA89B225B138E00F0B14A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29CD6C9AA04313792FE29580 /* Pods-RNDM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,12 +460,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = iP.RNDM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D21FA89C225B138E00F0B14A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D29D706216699D0BCA3D21D3 /* Pods-RNDM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -314,7 +479,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = iP.RNDM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
