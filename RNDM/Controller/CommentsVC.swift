@@ -48,7 +48,8 @@ class CommentsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, 
         }
         let editAction = UIAlertAction(title: "Edit Comment", style: .default){ (action)
             in
-            
+            self.performSegue(withIdentifier: "toEditComment", sender: (comment, self.thought))
+            alert.dismiss(animated: true, completion: nil)
         }
         let cancel = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
         
@@ -56,6 +57,14 @@ class CommentsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, 
         alert.addAction(editAction)
         alert.addAction(cancel)
         present(alert, animated: true, completion: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let destination = segue.destination as? UpdateCommentVC {
+            if let senderData = sender as? (comment: Comment, thought: Thought) {
+                destination.commentData = senderData
+            }
+        }
     }
     
     // Outlets

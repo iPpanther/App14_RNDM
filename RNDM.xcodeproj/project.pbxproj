@@ -25,6 +25,7 @@
 		D21FA8B2225B47AD00F0B14A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21FA8B1225B47AD00F0B14A /* LoginVC.swift */; };
 		D21FA8B4225B495900F0B14A /* CreateUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21FA8B3225B495900F0B14A /* CreateUserVC.swift */; };
 		D21FA8B6225B518C00F0B14A /* CommentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21FA8B5225B518C00F0B14A /* CommentsVC.swift */; };
+		D2ED923A225C5EFF003F586B /* UpdateCommentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ED9239225C5EFF003F586B /* UpdateCommentVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		D21FA8B3225B495900F0B14A /* CreateUserVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUserVC.swift; sourceTree = "<group>"; };
 		D21FA8B5225B518C00F0B14A /* CommentsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsVC.swift; sourceTree = "<group>"; };
 		D29D706216699D0BCA3D21D3 /* Pods-RNDM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNDM.release.xcconfig"; path = "Target Support Files/Pods-RNDM/Pods-RNDM.release.xcconfig"; sourceTree = "<group>"; };
+		D2ED9239225C5EFF003F586B /* UpdateCommentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCommentVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				D21FA8B1225B47AD00F0B14A /* LoginVC.swift */,
 				D21FA8B3225B495900F0B14A /* CreateUserVC.swift */,
 				D21FA8B5225B518C00F0B14A /* CommentsVC.swift */,
+				D2ED9239225C5EFF003F586B /* UpdateCommentVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D21FA8B6225B518C00F0B14A /* CommentsVC.swift in Sources */,
+				D2ED923A225C5EFF003F586B /* UpdateCommentVC.swift in Sources */,
 				D21FA8B2225B47AD00F0B14A /* LoginVC.swift in Sources */,
 				D21FA8A7225B261E00F0B14A /* Constants.swift in Sources */,
 				D21FA88B225B138D00F0B14A /* MainVC.swift in Sources */,

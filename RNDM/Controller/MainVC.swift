@@ -20,7 +20,26 @@ class MainVC: UIViewController, UITableViewDataSource, UITableViewDelegate, Thou
 
     func thoughtOptionsTapped(thought: Thought) {
         // this is where we create the alert to handle deletion
+        let alert = UIAlertController(title: "Delete", message: "Do you want to delete your thought?", preferredStyle: .actionSheet)
+        let deleteAction = UIAlertAction(title: "Delete Thought", style: .default){ (action) in
+            
+            Firestore.firestore().collection(THOUGHTS_REF).document(thought.documentId).delete(completion: {(error)
+                in
+                if let error = error {
+                    debugPrint(error.localizedDescription)
+                }else{
+                    alert.dismiss(animated: true, completion: nil)
+                }
+                
+            })
+            
+        }
         
+        let cancel = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+        
+        alert.addAction(deleteAction)
+        alert.addAction(cancel)
+        present(alert, animated: true, completion: nil)
     }
     // Outlets
     @IBOutlet private weak var segmentControl: UISegmentedControl!

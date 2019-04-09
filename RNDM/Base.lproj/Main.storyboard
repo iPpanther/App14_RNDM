@@ -355,11 +355,65 @@
                         <outlet property="addCommentTxt" destination="xQd-3G-2v5" id="otF-kE-w3O"/>
                         <outlet property="keyboardView" destination="Jnl-ty-987" id="zjC-NU-EOG"/>
                         <outlet property="tableView" destination="a8m-aR-LXh" id="hB1-Dt-8la"/>
+                        <segue destination="Fhp-pf-h3H" kind="show" identifier="toEditComment" id="tgT-9a-L4x"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yPg-dZ-RHp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2053.6231884057975" y="569.86607142857144"/>
+        </scene>
+        <!--Update CommentVC-->
+        <scene sceneID="9as-D5-doa">
+            <objects>
+                <viewController id="Fhp-pf-h3H" customClass="UpdateCommentVC" customModule="RNDM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4CA-cs-9Ia">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VVb-l5-SaA">
+                                <rect key="frame" x="20" y="108" width="374" height="200"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="0.20194777397260275" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="FfX-dD-TUG"/>
+                                </constraints>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uz6-ie-Nob">
+                                <rect key="frame" x="132" y="328" width="150" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="cAw-OP-SeF"/>
+                                    <constraint firstAttribute="height" constant="40" id="pCw-tC-tx7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                <state key="normal" title="Update">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="updateTapped:" destination="Fhp-pf-h3H" eventType="touchUpInside" id="hMs-Tt-UbM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fTP-5S-8Vo" firstAttribute="trailing" secondItem="VVb-l5-SaA" secondAttribute="trailing" constant="20" id="5n3-oj-qfI"/>
+                            <constraint firstItem="Uz6-ie-Nob" firstAttribute="top" secondItem="VVb-l5-SaA" secondAttribute="bottom" constant="20" id="8u2-TI-5bF"/>
+                            <constraint firstItem="Uz6-ie-Nob" firstAttribute="centerX" secondItem="4CA-cs-9Ia" secondAttribute="centerX" id="SxS-4G-oNJ"/>
+                            <constraint firstItem="VVb-l5-SaA" firstAttribute="top" secondItem="fTP-5S-8Vo" secondAttribute="top" constant="20" id="dtl-VD-FtJ"/>
+                            <constraint firstItem="VVb-l5-SaA" firstAttribute="leading" secondItem="fTP-5S-8Vo" secondAttribute="leading" constant="20" id="xww-gK-gGe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fTP-5S-8Vo"/>
+                    </view>
+                    <connections>
+                        <outlet property="commentTxt" destination="VVb-l5-SaA" id="8Om-W7-PnF"/>
+                        <outlet property="updateBtn" destination="Uz6-ie-Nob" id="apy-Df-MAD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u2r-1s-L8b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2902.898550724638" y="569.86607142857144"/>
         </scene>
         <!--LoginVC-->
         <scene sceneID="wLX-lW-VmK">
